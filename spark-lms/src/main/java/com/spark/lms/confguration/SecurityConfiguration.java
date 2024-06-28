@@ -28,7 +28,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Value("${spring.queries.users-query}")
     private String usersQuery;
 
-    @Value(("${spring.queries.roles-query}"))
+    //@Value("${spring.queries.roles-query}")
     private String roleQuery;
 
     @Override
